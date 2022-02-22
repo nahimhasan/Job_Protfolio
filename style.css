@@ -1,0 +1,38 @@
+.top-container{
+    background-color: rgb(3, 31, 73);
+    color: white;
+    
+}
+
+#paragraph{
+    font-size: 25px;
+}
+.image img{
+    width: 98%;
+    border-radius: 50%;
+
+}
+
+.main-part{
+   padding-top: 25px;
+    background-color: rgb(235, 230, 230);
+}
+h3{
+ color: blue;
+ font-weight: 700;
+}
+
+p{
+    font-size: 20px;  
+}
+
+h4
+{
+    font-weight: 700;
+}
+h5{
+    font-weight: 700;
+}
+
+
+
