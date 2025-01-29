@@ -1,38 +1,75 @@
-.top-container{
-    background-color: rgb(3, 31, 73);
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Section */
+.top-container {
+    background-color: #032147;
     color: white;
-    
+    padding: 20px 0;
 }
 
-#paragraph{
-    font-size: 25px;
-}
-.image img{
-    width: 98%;
-    border-radius: 50%;
-
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
 }
 
-.main-part{
-   padding-top: 25px;
-    background-color: rgb(235, 230, 230);
-}
-h3{
- color: blue;
- font-weight: 700;
+/* Main Section */
+.main-part {
+    background-color: #f8f9fa;
+    padding: 40px 0;
 }
 
-p{
-    font-size: 20px;  
-}
-
-h4
-{
+.section-title {
+    color: #007bff;
     font-weight: 700;
+    margin-bottom: 20px;
 }
-h5{
+
+.section-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.skill-category {
     font-weight: 700;
+    margin-top: 20px;
 }
 
+.skill-list {
+    list-style-type: none;
+    padding-left: 0;
+}
 
+.skill-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
+.project {
+    margin-bottom: 30px;
+}
+
+.reference {
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .section-text {
+        font-size: 16px;
+    }
+
+    .skill-list li {
+        font-size: 16px;
+    }
+}
